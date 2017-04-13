@@ -1,0 +1,4 @@
+[2016-10-28 23:07:21] layer "Обратная связь: mail@htmlacademy.ru": Unsupported extension: ru
+[2016-10-28 23:07:21] layer "Разработано — htmlacademy.ru": Unsupported extension: ru
+[2016-10-28 23:07:21] layer "Гарантия  Если купленный у нас товар поломается или заискрит,  ": Expected end of input but "," found.
+[2016-10-28 23:07:21] layer "+7 (812) 555-05-55": Expected Either a default asset specification or a layer asset specification but "+" found.
