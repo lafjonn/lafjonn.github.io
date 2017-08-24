@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>The Bike Shop</title>
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body class="page">
+    <header class="header  absolute">
+      <nav class="header__nav">
+        <div class="header__logo-block">
+          <a class="header__logo" href="#">
+            <img class="header__logo-svg" src="img/logo-svg.svg" alt="The Bike Shop">
+          </a>
+          <button class="header__dropdown-btn" type="button">Меню</button>
+        </div>
+        <ul class="header__menu-list  header__menu-list--close">
+          <li class="header__menu-item  header__menu-item--bicycles">
+            <ul class="header__submenu-list">
+              <li class="header__submenu-item">
+                <a class="header__submenu-link" href="#">FIXED / SINGLE SPEED</a>
+              </li>
+              <li class="header__submenu-item">
+                <a class="header__submenu-link" href="#">CITY BIKES</a>
+              </li>
+              <li class="header__submenu-item">
+                <a class="header__submenu-link" href="#">PREMIUM SERIES</a>
+              </li>
+            </ul>
+            <a class="header__menu-link  header__menu-link--bicycles" href="#">BICYCLES</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">PARTS</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">ACCESSORIES</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">EXTRAS</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__basket" href="#">
+              <svg class="header__basket-svg" xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27"><path d="M1.31 1h3.13c.72 0 1.31.59 1.31 1.31v.1c0 .42-.2.8-.52 1.04l.2.17h19.29c.69 0 1.25.57 1.25 1.26v.09c0 .4-.2.77-.5 1 .38.25.6.7.54 1.19l-1.51 9.32a1.24 1.24 0 0 1-1.4 1.06H7.74l.39 2.52h13.53c.65 0 1.18.53 1.18 1.19v.12c0 .66-.53 1.2-1.18 1.2H7.14a1.25 1.25 0 0 1-1.44-1.03L3.14 4.68c-.06-.35.04-.7.25-.96H1.31C.59 3.72 0 3.13 0 2.4v-.09C0 1.6.59 1 1.31 1zm4.72 5.22l.61 4.04.09-.01h4.49V6.22zm1.3 8.56h3.89v-3.5H6.8zm14.66 0l.57-3.5H17.5v3.5zm1.29-7.99c.03-.21.12-.4.24-.57H17.5v4.03h5.22zm-11.06-.57v4.03h4.28V6.22zm0 8.56h4.28v-3.5h-4.28zm-4.6 10.34c.2-.52.8-.84 1.35-.73l1.05.22c.54.12.81.62.61 1.14l-.13.32c-.2.51-.8.84-1.35.73l-1.05-.23a.81.81 0 0 1-.61-1.13zm11.97 0c.2-.52.8-.84 1.35-.73l1.05.22c.54.12.81.62.61 1.14l-.13.32c-.2.51-.8.84-1.35.73l-1.05-.23a.81.81 0 0 1-.61-1.13z"/></svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="slider">
+      <div class="slider__inner">
+        <h1 class="slider__heading">HANDMADE BICYCLE</h1>
+        <p class="slider__subheading">You <span class="slider__color">create</span> the <span class="slider__color">journey,</span> we supply the <span class="slider__color">parts.</span> </p>
+        <a class="slider__btn btn">Shop bikes</a>
+      </div>
+    </section>
+    <section class="categories">
+      <h2 class="categories__heading">CATEGORIES</h2>
+        <ul class="categories__list">
+          <li class="categories__item  categories__item--fixed">
+            <h3 class="categories__name">FIXED / SINGLE SPEED</h3>
+            <p class="categories__description">Are You ready for the 27.5 Revolution?</p>
+            <a class="categories__btn" href="#">GO TO STORE</a>
+          </li>
+          <li class="categories__item  categories__item--premium">
+            <h3 class="categories__name">PREMIUM SERIES</h3>
+            <p class="categories__description">Exclusive  Bike Components</p>
+            <a class="categories__btn" href="#">GO TO STORE</a>
+          </li>
+          <li class="categories__item  categories__item--city">
+            <h3 class="categories__name">CITY BIKES</h3>
+            <p class="categories__description">Street Playground</p>
+            <a class="categories__btn" href="#">GO TO STORE</a>
+          </li>
+        </ul>
+      </section>
+    <section class="popular">
+      <h2 class="popular__heading">POPULAR BIKES</h2>
+      <div class="popular__inner">
+        <div class="popular__item">
+          <img class="popular__item-image" src="img/item-fixed.jpg" alt="FIXED GEAR" width="490" height="391">
+          <div class="popular__item-caption">
+            <div class="popular__info-block">
+              <span class="popular__name">FIXED GEAR</span>
+              <span class="popular__price">$249.00</span>
+            </div>
+            <div class="popular__actions-block">
+              <form class="popular__buy-form">
+                <p class="popular__options-input">
+                  <select class="popular__options-list" name="option">
+                    <option value="option-1">Option</option>
+                    <option value="option-2">Option 2</option>
+                    <option value="option-3">Option 3</option>
+                  </select>
+                  <input class="popular__buy-btn  btn  btn--buy" type="submit" value="BUY">
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="popular__item">
+          <img class="popular__item-image" src="img/item-bigboy.jpg" alt="BIG BOY ULTRA" width="490" height="391">
+          <div class="popular__item-caption">
+            <div class="popular__info-block">
+              <span class="popular__name">BIG BOY ULTRA</span>
+              <span class="popular__price">$249.00</span>
+            </div>
+            <div class="popular__actions-block">
+              <form class="popular__buy-form">
+                <p class="popular__options-input">
+                  <select class="popular__options-list" name="option">
+                    <option value="option-1">Option</option>
+                    <option value="option-2">Option 2</option>
+                    <option value="option-3">Option 3</option>
+                  </select>
+                  <input class="popular__buy-btn  btn  btn--buy" type="submit" value="BUY">
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="popular__item">
+          <img class="popular__item-image" src="img/item-sanchez.jpg" alt="SANCHAEZ" width="490" height="391">
+          <div class="popular__item-caption">
+            <div class="popular__info-block">
+              <span class="popular__name">SANCHAEZ</span>
+              <span class="popular__price">$249.00</span>
+            </div>
+            <div class="popular__actions-block">
+              <form class="popular__buy-form">
+                <p class="popular__options-input">
+                  <select class="popular__options-list" name="option">
+                    <option value="option-1">Option</option>
+                    <option value="option-2">Option 2</option>
+                    <option value="option-3">Option 3</option>
+                  </select>
+                  <input class="popular__buy-btn  btn  btn--buy" type="submit" value="BUY">
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <h2 class="contact__heading">CONTACT US</h2>
+      <p class="contact__description">Please contact us for all inquiries and purchase options.</p>
+      <form class="contact__form" method="post">
+        <input class="contact__name" type="text" name="name" id="name" placeholder="NAME">
+        <input class="contact__surname" type="text" name="surname" id="surname" placeholder="SURNAME">
+        <input class="contact__email" type="text" name="email" id="email" placeholder="USER@DOMAIN.COM">
+        <textarea class="contact__message" id="message" name="message" placeholder="MESSAGE"></textarea>
+        <input class="contact__btn  btn  btn--contact" type="submit" value="SEND">
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer__inner">
+        <a class="footer__logo" href="#">
+          <img class="footer__logo-svg" src="img/logo-black-svg.svg" alt="The Bike Shop">
+        </a>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a class="footer__link" href="#">BICYCLES</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__link" href="#">PARTS</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__link" href="#">ACCESSORIES</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__link" href="#">EXTRAS</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  <script src="js/script.js"></script>
+  </body>
+</html>
